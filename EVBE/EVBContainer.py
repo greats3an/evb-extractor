@@ -103,7 +103,7 @@ class Container(object):
 
         DataParser(self.header, self.data, HEADER_STRUCT, self.offset)
 
-        if self.header.signature != 'EVB\x00':
+        if self.header.signature != b'EVB\x00':
             print('Signature not found')
             return False
 

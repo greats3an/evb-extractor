@@ -51,7 +51,7 @@ class EVBFile(object):
 
         section = None
         for s in pe.sections:
-            if s.Name == '.enigma1':
+            if s.Name == b'.enigma1':
                 section = s
                 break
 
