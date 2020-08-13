@@ -1,5 +1,9 @@
 ## Enigma Virtual Box Extractor
 
+### Fix
+The orginal code doesn't work on Python 3.x since the comparisons became more strict
+The [patches](https://github.com/greats3an/evb-extractor/commit/71e0acfc281a5060c34f0da7b4ae707d47c2de31) are applied to make it run on modern versions of Python
+
 ### Overview
 It is a tool to extract the files from the file container made ​​using the program [Enigma Virtual Box](http://enigmaprotector.com/en/aboutvb.html)
 
